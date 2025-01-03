@@ -1,10 +1,13 @@
 .toc-box {
     position: fixed;
+    display: flex;
+    flex-direction: column;
     z-index: 9999;
     border: 1px solid var(--color-base-30);
     border-radius: 5px;
     background-color: rgba(30, 30, 30, 0.6);
     padding: 1rem;
+    max-height: 80%;
 }
 
 .toc-box p {
@@ -45,6 +48,7 @@
 
 .toc-content {
     margin-top: 0.5rem;
+    overflow-y: scroll;
 }
 
 .toc-link {
