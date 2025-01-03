@@ -1,0 +1,81 @@
+.toc-box {
+    position: fixed;
+    z-index: 9999;
+    border: 1px solid var(--color-base-30);
+    border-radius: 5px;
+    background-color: rgba(30, 30, 30, 0.6);
+    padding: 1rem;
+}
+
+.toc-box p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.toc-box-top-header {
+    top: 50px;
+}
+
+.toc-box-top-no-header {
+    top: 10px;
+}
+
+.toc-box-bottom-status-bar {
+    bottom: 40px;
+}
+
+.toc-box-bottom-no-status-bar {
+    bottom: 10px;
+}
+
+.toc-box-left {
+    left: 10px;
+}
+
+.toc-box-right {
+    right: 10px;
+}
+
+.toc-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--color-base-80);
+    margin-left: 0.5rem;
+}
+
+.toc-content {
+    margin-top: 0.5rem;
+}
+
+.toc-link {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.toc-link-left-h1 {
+    margin-left: 0;
+}
+
+.toc-link-left-h2 {
+    margin-left: 1rem;
+}
+
+.toc-link-left-h3 {
+    margin-left: 2rem;
+}
+
+.toc-link-left-h4 {
+    margin-left: 3rem;
+}
+
+.toc-link-left-h5 {
+    margin-left: 4rem;
+}
+
+.toc-link-left-h6 {
+    margin-left: 5rem;
+}
+
+.toc-closed {
+    display: none;
+}

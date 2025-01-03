@@ -1,0 +1,10 @@
+{
+	"id": "floating-toc",
+	"name": "Floating Table of Contents",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "A floating table of contents that follows you as you scroll through your note.",
+	"author": "Roddyd",
+	"authorUrl": "https://github.com/Roddyd94",
+	"isDesktopOnly": false
+}
