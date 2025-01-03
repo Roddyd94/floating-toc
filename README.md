@@ -20,7 +20,7 @@ This plugin enhances your Obsidian experience by creating a floating box contain
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
 
 ---
 
