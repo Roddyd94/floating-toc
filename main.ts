@@ -115,8 +115,8 @@ export default class FloatingToC extends Plugin {
 	}
 
 	removeExistingFloatingToC() {
-		if (this.currentContainer)
-			this.currentContainer.find('.toc-box').remove();
+		if (this.currentToC)
+			this.currentToC.remove();
 	}
 
 	addInternalLinks(headings: HeadingCache[]) {
