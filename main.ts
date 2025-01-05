@@ -97,7 +97,7 @@ export default class FloatingToC extends Plugin {
 			event.preventDefault();
 
 			this.currentMarkdownView.previewMode.applyScroll(0);
-			this.currentMarkdownView.editor.scrollTo(0);
+			this.currentMarkdownView.editor.scrollTo(0, 0);
 		});
 		topText.appendChild(topTextLink);
 
